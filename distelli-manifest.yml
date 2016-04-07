@@ -1,11 +1,19 @@
 bmcgehee/generator-gulp-angular:
-  BuildWith: Travis
+  #BuildWith: Travis
   PreBuild:
     - echo "PreBuild"
   Build:
     - echo "Build"
+    - source ~/.nvm/nvm.sh
+    - nvm install v0.12.7
+    - npm install -g you gulp bower
+    - npm install -g generator-gulp-angular    
+    
   Env:
     - secure: CxEg2hSOUgwATFFAbD5ycalZdVvaKSTGIVyVYGze7NCqNaDhaXr1VSfrdfu+GrPp6+cYPhBB8Rr0LaweyZPqiVEHFWBtUiOjl5PShOazyiCNTX6ZQUCTHYQVkoIyKYhP/WVzmy6MfhCnuSkA129EeQ6dVUr/8NlIW2/N8PgU018=
     - GH_OWNER: zckrs
     - GH_PROJECT_NAME: gulp-angular-boilerplate
+  PkgInclude:
+    - '*'
+    
 
