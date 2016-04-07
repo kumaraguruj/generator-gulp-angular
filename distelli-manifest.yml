@@ -4,8 +4,11 @@ bmcgehee/generator-gulp-angular:
     - echo "PreBuild"
   Build:
     - echo "Build"
+    - npm -version
     - source ~/.nvm/nvm.sh
+    - npm -version
     - nvm install v0.12.7
+    - npm - version
     - npm install -g you gulp bower
     - npm install -g generator-gulp-angular    
     
