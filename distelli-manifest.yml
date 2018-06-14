@@ -1,4 +1,4 @@
-bmcgehee/generator-gulp-angular:
+guru4ui/generator-gulp-angular:
   #BuildWith: Travis
   PreBuild:
     - echo "PreBuild"
