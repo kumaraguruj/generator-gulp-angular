@@ -7,7 +7,9 @@ guru4ui/generator-gulp-angular:
     - source ~/.nvm/nvm.sh
     - nvm install v0.12.7
     - npm install -g npm
-    - npm install -g yo gulp bower
+    - npm install -g yo 
+    - npm install -g gulp
+    - npm install -g bower
     - npm install -g generator-gulp-angular
     - npm install
     - npm test
@@ -21,6 +23,8 @@ guru4ui/generator-gulp-angular:
     - sudo apt-get -y update
     - sudo apt-get -y install nodejs npm
     - sudo ln -sf /usr/bin/nodejs /usr/bin/node
-    - sudo npm install -g yo gulp bower
+    - npm install -g yo 
+    - npm install -g gulp
+    - npm install -g bower
     - sudo npm install -g generator-gulp-angular
 
