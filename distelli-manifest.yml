@@ -23,7 +23,7 @@ guru4ui/generator-gulp-angular:
     - sudo apt-get -y update
     - sudo apt-get -y install nodejs npm
     - sudo ln -sf /usr/bin/nodejs /usr/bin/node
-    - npm install -g yo 
+    # npm install -g yo 
     - npm install -g gulp
     - npm install -g bower
     - sudo npm install -g generator-gulp-angular
